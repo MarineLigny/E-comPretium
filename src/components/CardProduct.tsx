@@ -7,7 +7,9 @@ function CardProduct() {
       <article className="product-card">
           <img 
           className="product-card-image" 
-          src="/images/shoes-thumb.jpg" 
+          src="/images/shoes-thumb.jpg"
+          srcSet='/images/shoes-thumb.jpg 161w, /images/shoes-thumb-desktop.jpg 338w'
+          sizes='(max-width:700px) 161px, 338px'
           alt="" 
           width="161" 
           height="124" 

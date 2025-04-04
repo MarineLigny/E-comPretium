@@ -1,29 +1,23 @@
 //import { useState } from 'react'
 //import './App.css'
 //import { MapPin } from 'lucide-react';
-import CardProduct from './components/CardProduct';
+//import CardProduct from './components/CardProduct';
+import Banner from './components/Banner';
+import ProductsContainer from './components/ProductsContainer';
 //import { Link } from 'react-router-dom';
 
 
 function App() {
 
   return (
+    
     <div>
-      <section className='container section-trending'>
-        <h2 className="section-title">
-          Produits tendances
-        </h2>
-        <div className="products-grid">
-            <CardProduct />
-            <CardProduct />
-            <CardProduct />
-            <CardProduct />
-            <CardProduct />
-        </div>
-        <a href="/products.html" className='btn-bordered'>Voir tous les articles</a>
-      </section>
-      
+      <main className='sections'>
+        <Banner />
+        <ProductsContainer />
+      </main>
     </div>
+    
   )
 }
 

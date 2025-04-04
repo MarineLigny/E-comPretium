@@ -45,9 +45,10 @@
     }
     .banner_title {
         font-size: 3.75rem;
-        line-height: 3;
+        line-height: 1.33;
     }
     .banner_description {
         font-size: 1.25rem;
+        line-height: 1.6;
     }
 }

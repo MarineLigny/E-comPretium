@@ -30,10 +30,14 @@
     line-height: 1.625;
     font-weight: 600;
 }
+.text-body {
+    line-height: 1.625;
+   }
 
 @media (min-width: 1200px) {
     .section-title {
         font-size: 2.625rem;
+        line-height: 1.23;
     }
     .product-card_title {
         font-size: 1.375rem;
@@ -50,5 +54,9 @@
     .banner_description {
         font-size: 1.25rem;
         line-height: 1.6;
-    }
+   }
+   .text-body {
+    font-size: 1.25rem;
+    line-height: 1.7;
+   }
 }

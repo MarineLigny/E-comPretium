@@ -118,7 +118,7 @@
     }
     .section-trending .btn-bordered {
         position: absolute;
-        top: 0;
+        top: -0.3rem;
         right: var(--container-padding);
     }
 }

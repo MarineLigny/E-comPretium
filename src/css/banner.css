@@ -6,7 +6,7 @@
     var(--image) no-repeat center; 
    background-size: cover;
    margin-inline: auto;
-   padding-inline: max(2rem, calc((var(--width) - var(--container-width)) / 2));
+   padding-inline: max(2rem, calc((var(--width) - var(--container-width)) / 9));
    padding-block: 2rem;
    border-radius: 20px;
    color: var(--text-inverse);
@@ -36,5 +36,6 @@
 @media (min-width: 1100px) {
     .banner {
       min-height: 412px;
+      padding-block: 4rem;
     }   
 }

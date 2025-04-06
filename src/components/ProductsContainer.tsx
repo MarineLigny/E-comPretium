@@ -1,3 +1,5 @@
+{/*ici il s'agit du container des différents articles tendances, on ne s'occupe que du front, mais il faudra limiter à 6 articles par exemple puis cliquer sur voir tout pour voir le reste*/}
+
 import CardProduct from "./CardProduct";
 
 function ProductsContainer() {

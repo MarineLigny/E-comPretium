@@ -25,7 +25,6 @@ function App() {
 
           <div className="categories-grid">
             {categories.map((_, index) => (
-              // biome-ignore lint/a11y/useAnchorContent: <explanation>
               <a 
                 href="/#" 
                 className='category-link'

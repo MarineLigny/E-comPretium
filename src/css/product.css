@@ -38,6 +38,12 @@
         position: absolute;
         inset: 0;
     }
+    .btn-like {
+
+        position: absolute;
+        top: 16px;
+        right: 16px;
+    }
 }
 
 .product-card-image {
@@ -78,34 +84,50 @@
     }
 }
 
-.product-card_like {
-    z-index: 3;
-    width: 30px;
-    height: 30px;
-    background: rgba(255, 255, 255, 0.87);
-    
-    border-radius: 100%;
-    display: grid;
-    place-items: center;
 
-    position: absolute;
-    top: 16px;
-    right: 16px;
-    transition: 0.3s;
-    --icon-size: 14px;
+                    /** ici on passe à la carte du produit de "continuez vos achats**/
+.resume-shopping {
+    padding-block: 1.875rem;
+    border-radius: 20px;
+    background-color: var(--contrast-light);
 
-        svg {
-            width: var(--icon-size);
-            height: var(--icon-size);
+        .section-title {
+            text-align: center;
+            margin-bottom: 1.875rem;
         }
-
-
-    &:hover {
-        transform: scale(1.1);
-        background: rgba(255, 255, 255, 0.6);
-        color: var(--contrast);
-    }
 }
+
+.product-card-full {
+    position: relative;
+    width: 270px;
+    height: 358px;
+    border-radius: 32px;
+    overflow: hidden;
+    isolation: isolate;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    .btn-like {
+
+        position: absolute;
+        top: 16px;
+        right: 16px;
+        height: 40px;
+        width: 40px;
+        --icon-size: 16px;
+    }
+    
+}
+
+.product-card-full_image {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+}
+                    
+                                        /**---------------- Media queries --------**/
 
 @media (min-width: 700px) {
     .products-grid {
@@ -144,7 +166,7 @@
     .product-card-image {
         height: 286px;
     }
-    .product-card_like {
+    .btn-like {
         width: 40px;
         height: 40px;
         top: 28px;

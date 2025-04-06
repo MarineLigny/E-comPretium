@@ -31,6 +31,37 @@
     }
 }
 
+.btn-like {
+    z-index: 3;
+    width: 30px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.87);
+    
+    border-radius: 100%;
+    display: grid;
+    place-items: center;
+
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    transition: 0.3s;
+    --icon-size: 14px;
+
+        svg {
+            width: var(--icon-size);
+            height: var(--icon-size);
+        }
+
+
+    &:hover {
+        transform: scale(1.1);
+        background: rgba(255, 255, 255, 0.6);
+        color: var(--contrast);
+    }
+}
+
+            /**---------------- Media queries --------**/
+
 @media (min-width: 700px) {
     .btn-bordered {
         padding-block: 1.125rem;

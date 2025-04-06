@@ -15,6 +15,7 @@ function ProductsContainer() {
                 <CardProduct />
                 <CardProduct />
                 <CardProduct />
+                <CardProduct />
             </div>
             <a href="/products.html" className='btn-bordered'>Voir tous les articles</a>
       </section>  

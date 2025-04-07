@@ -1,5 +1,4 @@
 .container {
-    box-sizing: content-box;
     max-width: min(var(--container-width), calc(100% - 2 * var(--container-padding)));
     margin-inline: auto;
 }

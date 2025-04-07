@@ -3,10 +3,6 @@
         margin-top: 0.75rem;
         margin-bottom: 1.25rem;
     }
-
-    .section-title {
-        text-align: center;
-    }
 }
 
 .categories-grid {
@@ -49,9 +45,6 @@
         display: grid;
         grid-template-columns: 593fr 885fr;
         gap: 80px;
-            .section-title {
-               text-align: left;
-            }
     }
     .categories-grid {
         grid-template-columns: 1fr 1fr 1fr;

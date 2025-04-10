@@ -6,10 +6,9 @@
 @import "./elements/btn.css";
 @import "./elements/location.css";
 @import "./elements/slider.css";
+@import "./elements/navbar.css";
 
 @import "./blocs/posts.css";
 @import "./blocs/product.css";
 @import "./blocs/banner.css";
 @import "./blocs/categories.css";
-
-

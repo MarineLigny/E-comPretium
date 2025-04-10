@@ -71,6 +71,27 @@
     }
 }
 
+.btn-icon {
+    width: 44px;
+    height: 44px;
+    display: grid;
+    place-items: center;
+
+    border-radius: 44px;
+    border: 1px solid var(--border);
+    transition: 0.3s;
+
+    svg {
+        width: 20px;
+        height: 20px;
+    }
+    
+    &:hover {
+        border-color: var(--contrast);
+        color: var(--contrast);
+    }
+}
+
             /**---------------- Media queries --------**/
 
 @media (min-width: 700px) {

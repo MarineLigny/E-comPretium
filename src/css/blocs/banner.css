@@ -6,7 +6,7 @@
 
 
 .banner {
-    --image: url(../assets/banner2.jpg);
+    --image: url(../../assets/banner2.jpg);
    --width: min(1800px, calc(100% - 2 * var(--container-padding)));
    background:
     linear-gradient(to top, rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
@@ -36,7 +36,7 @@
 
 @media (min-width: 610px) {
     .banner {
-      --image: url(../assets/banner2.jpg);  
+      --image: url(../../assets/banner2.jpg);  
       border-radius: 40px; 
     }   
 }

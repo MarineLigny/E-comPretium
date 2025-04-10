@@ -1,4 +1,4 @@
-{/*ici il s'agit de la bannière du haut avc la photo en background redimensionné et les éléments en avant*/}
+//ici il s'agit de la bannière du haut avc la photo en background redimensionné et les éléments en avant
 
 function Banner() {
 

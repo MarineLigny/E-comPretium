@@ -1,4 +1,4 @@
-{/*ici il s'agit de la mise en page pour un seul article en vente qui sera dupliqué dans ProductsContainer*/}
+//ici il s'agit de la mise en page pour un seul article en vente qui sera dupliqué dans ProductsContainer
 
 import { MapPin } from 'lucide-react';
 

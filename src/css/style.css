@@ -1,12 +1,15 @@
-@import "./variable.css";
-@import "./product.css";
-@import "./reset.css";
-@import "./text.css";
-@import "./btn.css";
-@import "./layout.css";
-@import "./banner.css";
-@import "./categories.css";
-@import "./location.css";
-@import "./slider.css";
+@import "./base/variable.css";
+@import "./base/reset.css";
+@import "./base/text.css";
+@import "./base/layout.css";
+
+@import "./elements/btn.css";
+@import "./elements/location.css";
+@import "./elements/slider.css";
+
+@import "./blocs/posts.css";
+@import "./blocs/product.css";
+@import "./blocs/banner.css";
+@import "./blocs/categories.css";
 
 

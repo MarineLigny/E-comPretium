@@ -1,8 +1,10 @@
+//ici c'est la barre de slide "continuez vos achats"
 import { MapPin } from 'lucide-react';
 
+
+
 function SliderProducts() {
-     // biome-ignore lint/complexity/noUselessLoneBlockStatements: <explanation>
-    {/*ici a modifier pour afficher autant de catégorie qu'il y aura de svg et son title*//*ici a modifier pour afficher autant de catégorie qu'il y aura de svg et son title*/}
+     //ici a modifier pour afficher autant de catégorie qu'il y aura de svg et son title
     const shopping = Array.from({ length: 6 });
 
     return (

@@ -1,4 +1,4 @@
-{/*ici il s'agit du container des différents articles tendances, on ne s'occupe que du front, mais il faudra limiter à 6 articles par exemple puis cliquer sur voir tout pour voir le reste*/}
+//ici c'est le container qui detient les différentes cardProduct
 
 import CardProduct from "./CardProduct";
 

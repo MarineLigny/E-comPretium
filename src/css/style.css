@@ -7,6 +7,7 @@
 @import "./elements/location.css";
 @import "./elements/slider.css";
 @import "./elements/navbar.css";
+@import "./elements/menu.css";
 
 @import "./blocs/posts.css";
 @import "./blocs/product.css";

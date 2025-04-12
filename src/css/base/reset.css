@@ -25,3 +25,16 @@ button {
     border: none;
     cursor: pointer;
 }
+
+hr {
+    border: unset;
+    height: 2px;
+    background: var(--border);
+    margin: unset;
+}
+
+ul, li {
+    margin: unset;
+    padding: unset;
+    list-style: none;
+}

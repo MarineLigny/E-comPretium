@@ -38,3 +38,7 @@ ul, li {
     padding: unset;
     list-style: none;
 }
+
+input, select {
+    font-family: unset;
+}

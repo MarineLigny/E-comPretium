@@ -12,4 +12,40 @@
         font-size: 1.75rem;
     }
 }
+.navbar-search {
+    width: 100%;
+    position: relative;
+}
+
+.navbar-search input {
+    border: solid 1px var(--contrast);
+    padding: 0.75rem 1.25rem;
+    font-size: 0.8125rem;
+    line-height: 1.54;
+    width: 100%;
+    border-radius: 60px;
+    display: block;
+}
+
+.navbar-search button {
+    position: absolute;
+    right: 0.25rem;
+    top: 0.25rem;
+    bottom: 0.25rem;
+    aspect-ratio: 1;
+    display: grid;
+    place-items: center;
+    transition: 0.3s;
+
+    svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    &:hover {
+        background-color: var(--border);
+        border-radius: 50px;
+    }
+
+}
 

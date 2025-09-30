@@ -41,8 +41,13 @@
 .desktop-header_top {
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	gap: 2rem;
 	margin-bottom: 1rem;
+	max-width: 1500px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 2rem;
 }
 
 .desktop-logo {
@@ -147,6 +152,10 @@
 .desktop-header_nav {
 	border-top: 1px solid var(--border);
 	padding-top: 1rem;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-left: 2rem;
+	padding-right: 2rem;
 }
 
 .desktop-header_nav ul {
@@ -156,6 +165,7 @@
 	margin: 0;
 	padding: 0;
 	list-style: none;
+	justify-content: center;
 }
 
 .desktop-header_nav a {
@@ -183,7 +193,7 @@
 }
 
 /* ======================
-   BARRE DE RECHERCHE MOBILE
+  BARRE DE RECHERCHE MOBILE
    ====================== */
 .navbar-search {
 	width: 100%;

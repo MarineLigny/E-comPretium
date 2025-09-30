@@ -23,7 +23,7 @@
 /* Masquer le menu mobile sur desktop */
 @media (min-width: 1100px) {
 	.mobile-menu {
-		display: none !important;
+		display: none;
 	}
 
 	.has-menu {

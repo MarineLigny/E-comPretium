@@ -1,0 +1,27 @@
+<svg width="40" height="40" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sac de shopping compact -->
+  <g>
+    <!-- Corps du sac -->
+    <path d="M25 45 L95 45 L90 100 C90 105.523 86.523 109 81 109 L39 109 C33.477 109 30 105.523 30 100 L25 45 Z" 
+          fill="white" 
+          stroke="currentColor" 
+          stroke-width="2"/>
+    
+    <!-- Anses du sac -->
+    <path d="M35 45 L35 35 C35 27.268 41.268 21 49 21 L71 21 C78.732 21 85 27.268 85 35 L85 45" 
+          fill="none" 
+          stroke="currentColor" 
+          stroke-width="2.5" 
+          stroke-linecap="round"/>
+    
+    <!-- Lettre P -->
+    <g transform="translate(60, 65)">
+      <!-- Corps vertical du P -->
+      <rect x="-12" y="-15" width="6" height="30" fill="#7f8e76"/>
+      
+      <!-- Partie supérieure du P -->
+      <path d="M-6 -15 L8 -15 C12.418 -15 16 -11.418 16 -7 L16 -3 C16 1.418 12.418 5 8 5 L-6 5 Z" 
+            fill="#7f8e76"/>
+    </g>
+  </g>
+</svg>

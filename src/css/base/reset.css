@@ -1,44 +1,57 @@
 body {
-    font-family: Poppins, sans-serif;
-    color: var(--text-light);
-    margin: 0.5rem;
-    padding: 0;
+	font-family: Poppins, sans-serif;
+	color: var(--text-light);
+	margin: 0;
+	padding: 0;
 }
 
-h1,h2,h3,h4,h5,h6, p {
-    font-size: inherit;
-    font-weight: inherit;
-    margin: unset;
-    padding: unset;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	font-size: inherit;
+	font-weight: inherit;
+	margin: unset;
+	padding: unset;
 }
 
-h1,h2,h3,h4,h5,h6 {
-    text-wrap: balance;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	text-wrap: balance;
 }
 a {
-    text-decoration: inherit;
-    color: currentColor;
+	text-decoration: inherit;
+	color: currentColor;
 }
 
 button {
-    background: inherit;
-    border: none;
-    cursor: pointer;
+	background: inherit;
+	border: none;
+	cursor: pointer;
 }
 
 hr {
-    border: unset;
-    height: 2px;
-    background: var(--border);
-    margin: unset;
+	border: unset;
+	height: 2px;
+	background: var(--border);
+	margin: unset;
 }
 
-ul, li {
-    margin: unset;
-    padding: unset;
-    list-style: none;
+ul,
+li {
+	margin: unset;
+	padding: unset;
+	list-style: none;
 }
 
-input, select {
-    font-family: unset;
+input,
+select {
+	font-family: unset;
 }

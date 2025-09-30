@@ -65,13 +65,13 @@
 
 /** ici on passe à la carte du produit de "continuez vos achats**/
 .resume-shopping {
-	padding-block: 1.875rem;
+	padding-block: 1.5rem;
 	border-radius: 20px;
 	background-color: var(--contrast-light);
 	position: relative;
 
 	.section-title {
-		margin-bottom: 1.875rem;
+		margin-bottom: 1rem;
 	}
 	.slider-navigation {
 		display: none;
@@ -131,9 +131,9 @@
 }
 .slider-products {
 	display: flex;
-	gap: 12px;
+	gap: 0.75rem;
 	overflow: auto;
-	scroll-snap-type: x proximity;
+
 	padding-bottom: 0.5rem;
 	margin-bottom: -0.5rem;
 	padding-inline: 20px;
@@ -179,7 +179,7 @@
 	}
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 1300px) {
 	.products-grid {
 		grid-template-columns: repeat(4, 1fr);
 		gap: 1.25rem 1.69rem;
@@ -211,12 +211,12 @@
 		}
 	}
 	.slider-products {
-		gap: 56px;
+		gap: 2rem;
 		overflow: hidden;
 		padding-inline: 0;
 	}
 	.product-card-full {
-		width: calc((100% - 2 * 56px) / 3);
-		height: 564px;
+		width: calc((84%) / 3);
+		height: 270px;
 	}
 }

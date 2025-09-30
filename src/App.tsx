@@ -9,6 +9,7 @@ import Posts from './components/Posts';
 import ProductsContainer from './components/ProductsContainer';
 import Promotions from './components/Promotions';
 import SliderProducts from './components/SliderProducts';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -90,6 +91,8 @@ function App() {
         <Posts />
         <Promotions />
       </main>
+
+      <Footer />
 
       <MobileMenu isVisible={isMobileMenuVisible} onClose={closeMobileMenu} />
 

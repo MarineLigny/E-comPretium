@@ -1,51 +1,232 @@
-.Navbar {
-    margin-top: 11px;
-    padding-top: 20px;
-    padding-bottom: 30px;
-
-    display: flex;
-    justify-content: space-between;
-
-    a {
-        color: var(--contrast);
-        font-weight: bold;
-        font-size: 1.75rem;
-    }
+/* ======================
+   MOBILE HEADER (< 1100px)
+   ====================== */
+.mobile-header {
+	margin-top: 11px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
+
+.mobile-header a {
+	color: var(--contrast);
+	font-weight: bold;
+	font-size: 1.75rem;
+}
+
+/* Masquer le header mobile au-dessus de 1100px */
+@media (min-width: 1100px) {
+	.mobile-header {
+		display: none;
+	}
+}
+
+/* ======================
+   DESKTOP HEADER (≥ 1100px)
+   ====================== */
+.desktop-header {
+	display: none;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+@media (min-width: 1100px) {
+	.desktop-header {
+		display: block;
+	}
+}
+
+.desktop-header_top {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+	margin-bottom: 1rem;
+}
+
+.desktop-logo {
+	color: var(--contrast);
+	font-weight: bold;
+	font-size: 2rem;
+	text-decoration: none;
+	flex-shrink: 0;
+}
+
+.desktop-header_search {
+	flex: 1;
+	max-width: 600px;
+}
+
+.navbar-search-desktop {
+	width: 100%;
+	position: relative;
+}
+
+.navbar-search-desktop input {
+	border: solid 1px var(--contrast);
+	padding: 0.75rem 1.25rem;
+	font-size: 0.9rem;
+	line-height: 1.54;
+	width: 100%;
+	border-radius: 60px;
+	display: block;
+}
+
+.navbar-search-desktop button {
+	position: absolute;
+	right: 0.25rem;
+	top: 0.25rem;
+	bottom: 0.25rem;
+	aspect-ratio: 1;
+	display: grid;
+	place-items: center;
+	transition: 0.3s;
+	border: none;
+	background: none;
+	cursor: pointer;
+	border-radius: 50px;
+
+	svg {
+		width: 20px;
+		height: 20px;
+	}
+
+	&:hover {
+		background-color: var(--border);
+	}
+}
+
+.desktop-header_actions {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	flex-shrink: 0;
+}
+
+.btn-bordered-small {
+	background: none;
+	border: 1px solid var(--contrast);
+	color: var(--contrast);
+	padding: 0.5rem 1rem;
+	border-radius: 25px;
+	text-decoration: none;
+	font-size: 0.875rem;
+	font-weight: 500;
+	transition: 0.3s;
+
+	&:hover {
+		background-color: var(--contrast);
+		color: var(--text-inverse);
+	}
+}
+
+.btn-user {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	color: var(--contrast);
+	text-decoration: none;
+	padding: 0.5rem 1rem;
+	border-radius: 25px;
+	font-size: 0.875rem;
+	font-weight: 500;
+	transition: 0.3s;
+
+	&:hover {
+		background-color: var(--border);
+	}
+
+	svg {
+		width: 18px;
+		height: 18px;
+	}
+}
+
+/* Navigation des catégories */
+.desktop-header_nav {
+	border-top: 1px solid var(--border);
+	padding-top: 1rem;
+}
+
+.desktop-header_nav ul {
+	display: flex;
+	gap: 2rem;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.desktop-header_nav a {
+	color: var(--contrast);
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 0.9rem;
+	padding: 0.5rem 0;
+	transition: 0.3s;
+	position: relative;
+
+	&:hover {
+		color: var(--primary);
+	}
+
+	&:hover::after {
+		content: "";
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 2px;
+		background: var(--primary);
+	}
+}
+
+/* ======================
+   BARRE DE RECHERCHE MOBILE
+   ====================== */
 .navbar-search {
-    width: 100%;
-    position: relative;
+	width: 100%;
+	position: relative;
 }
 
 .navbar-search input {
-    border: solid 1px var(--contrast);
-    padding: 0.75rem 1.25rem;
-    font-size: 0.8125rem;
-    line-height: 1.54;
-    width: 100%;
-    border-radius: 60px;
-    display: block;
+	border: solid 1px var(--contrast);
+	padding: 0.75rem 1.25rem;
+	font-size: 0.8125rem;
+	line-height: 1.54;
+	width: 100%;
+	border-radius: 60px;
+	display: block;
 }
 
 .navbar-search button {
-    position: absolute;
-    right: 0.25rem;
-    top: 0.25rem;
-    bottom: 0.25rem;
-    aspect-ratio: 1;
-    display: grid;
-    place-items: center;
-    transition: 0.3s;
+	position: absolute;
+	right: 0.25rem;
+	top: 0.25rem;
+	bottom: 0.25rem;
+	aspect-ratio: 1;
+	display: grid;
+	place-items: center;
+	transition: 0.3s;
+	border: none;
+	background: none;
+	cursor: pointer;
 
-    svg {
-        width: 20px;
-        height: 20px;
-    }
+	svg {
+		width: 20px;
+		height: 20px;
+	}
 
-    &:hover {
-        background-color: var(--border);
-        border-radius: 50px;
-    }
-
+	&:hover {
+		background-color: var(--border);
+		border-radius: 50px;
+	}
 }
 
+/* Masquer la barre de recherche mobile sur desktop */
+@media (min-width: 1100px) {
+	.navbar-search {
+		display: none;
+	}
+}

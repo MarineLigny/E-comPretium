@@ -1,0 +1,25 @@
+.section-promos {
+	.section-title {
+		margin-bottom: 1.875rem;
+	}
+}
+
+.slider-promos {
+	scroll-snap-type: x proximity;
+	display: flex;
+	gap: 1.25rem;
+	overflow: auto;
+	padding-bottom: 0.5rem;
+	margin-bottom: -0.5rem;
+	margin-inline: calc(var(--container-padding) * -1);
+	padding-inline: var(--container-padding);
+
+	.product-card {
+		width: 370px;
+		flex: none;
+	}
+	.swiper-button-next,
+	.swiper-button-prev {
+		color: var(--color-dark);
+	}
+}

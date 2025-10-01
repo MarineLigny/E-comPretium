@@ -68,7 +68,7 @@ function Footer () {
 
             <div className="footer_bottom">
               <div className="footer_copyright">
-                &copy; 2024 Pretium - Tous droits réservés.
+                &copy; 2025 Pretium Mligny - Tous droits réservés.
               </div>
               
               <ul className="footer_mentions_list">
